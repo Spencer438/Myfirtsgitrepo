@@ -1,0 +1,189 @@
+*{
+    padding:0%;
+    margin:0%;
+    width:100%;
+}
+@font-face{
+    src: url(../Font/Montserrat-Regular.ttf);
+    font-family: "Montserrat";
+}
+@font-face{
+    src: url(../Font/Sacramento-Regular.ttf);
+    font-family: "Sacramento";
+}
+.header{
+    background: aquamarine;
+    
+
+}
+.mypicture{
+    width:200px;
+    height: 200px;
+    border-radius: 100%;
+    top: 50px;
+    left: 42%;
+    position: relative;
+}
+.mountain{
+    width:40%;
+    position: relative;
+    left: 30%;
+    
+
+}
+
+.cloud1{
+    width:150px;
+    position: relative;
+    top:30px;
+    left: 70%;
+    animation: move 10s ease-out infinite;
+}
+
+.cloud2{
+    width:150px;
+    position: relative;
+    top:30px;
+    left:30%;
+    animation: move 10s ease-in infinite;
+}
+
+
+
+@keyframes move{
+    0%{
+    opacity: 0%;
+    transform: translateX(-15rem);
+    }
+    100%{
+        opacity: 1rem;
+        transform: translateX(0);
+    }
+    
+}
+.title{
+    color: lightpink;
+    font-family: "Sacramento";
+    font-size: 6rem;
+    text-shadow: 2rem;
+    text-align: center;
+
+}
+.sub{
+    font-family: "Monserrat";
+    font-size:2rem;
+    color: whitesmoke;
+    text-align: center;
+
+}
+.hello{
+    position: relative;
+    font-size: 50px;
+    top: 73px;
+    left:45%;
+    color: black;
+}
+p{
+    position: relative;
+    top: 83px;
+    left: 40%;
+    font-size: 25px;
+    color:black;
+}
+.myskills{
+    position: relative;
+    top: 180px;
+    font-size: 40px;
+    left:45%;
+}
+.skill{
+    position: relative;
+    top:190px;
+    font-size:20px;
+    left:47%;
+    
+}
+.browser{
+    position: relative;
+    width: 150px;
+    left:4%;
+    top:11rem;
+
+}
+.web{
+    position: relative;
+    font-size: 25px;
+    top:3.5rem;
+    left:17%;
+
+}
+.pweb{
+    position: relative;;
+    font-size: 20px;
+    font-family: "Monserrat";
+    left: 17%;
+    top:3.8rem;
+}
+
+.getintouch{
+    position: relative;
+    top: 400px;
+    font-size: 40px;
+    left:40%;
+}
+.lets{
+    position: relative;
+    top:430px;
+    font-size: 20px;
+    left:36%;
+}
+.love{
+    position: relative;
+    top:470px;
+    font-size: 20px;
+    left:22%;
+
+}
+.email{
+    position: relative;
+    left:40%;
+    top:450px;
+    font-size: 20px;
+    
+}
+button{
+    position: relative;
+    top:550px;
+    left:43%;
+    width:170px;
+    height: 50px;
+    background-color:rgb(39, 47, 158);
+    color: beige;
+    border-radius: 10px;
+    font-size: 30px;
+
+}
+.main-nav{
+    position: relative;
+    left: 25%;
+}
+.nav-item{
+    position: relative;
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+    color:darkblue;
+    left: 12%;
+    
+
+}
+.footer{
+    background: palegoldenrod;
+    position:relative;
+    top:590px;
+    height:80px;
+}
+
+body{
+    background: whitesmoke ;
+}
